@@ -1,3 +1,20 @@
 = OddJob
 
+The cold blooded contract enforcer for Active Job
+
+Odd Job is a plugin for Acive Job that helps enforce Active Job parameter contracts when they are spawned between seperate applications.
+
+It also enforces a pattern and provides tools to allow versioning of Active Jobs to make maintenance easier.
+
+== How to use
+
+== Developmet
+
+Run the following to develop with this gem locally
+
+bundle config local.odd_job YOUR_REPO_DIR/odd_job
+  *  Replace YOUR_REPO_DIR with the location of a locally cloned gaming_engine repo
+
+== License
+
 This project rocks and uses MIT-LICENSE.

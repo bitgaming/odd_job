@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = OddJob::VERSION
   s.authors     = ["edbo"]
   s.email       = ["ed@bitgamelabs.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/bitgaming/odd_job"
   s.summary     = "Argument and Versioning for Active Job"
   s.description = "Contract enforcer for Active Job. Keep your arguments in check and version your Active Jobs!"
   s.license     = "MIT"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1.15"
+  s.add_dependency "rails", "~> 4.2.6"
 
   s.add_development_dependency "sqlite3"
 end
