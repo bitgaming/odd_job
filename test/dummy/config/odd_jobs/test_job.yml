@@ -1,0 +1,7 @@
+version 1
+queue default
+parameters
+  test_integer
+    type Integer
+  test_big_decimal
+    type BigDecimal
