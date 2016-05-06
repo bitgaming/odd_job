@@ -2,7 +2,7 @@ module OddJob
 	module Job
   	# Move this to a before hook when we move to ActiveJob
   	def parse_options(version, options)
-  		logger.info("version: #{version}, arguments: #{@options}")
+  		logger.info("version: #{version}, arguments: #{options}")
   		@options = options.deep_symbolize_keys
   		yield
   	end
