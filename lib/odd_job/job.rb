@@ -9,7 +9,7 @@ module OddJob
 
     def self.included(base)
       job_definition = OddJob.contract(base.name) 
-      base.queue_as queue: job_definition[:queue]
+      base.queue_as job_definition[:queue].to_sym
       base.extend(ClassMethods)
       define_methods(job_definition[:parameters])
     end
